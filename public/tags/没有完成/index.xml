@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>没有完成 on Erics Blog</title>
-    <link>http://localhost:1313/tags/%E6%B2%A1%E6%9C%89%E5%AE%8C%E6%88%90/</link>
+    <link>http://localhost:1313/Eric-s-Blog-v2/tags/%E6%B2%A1%E6%9C%89%E5%AE%8C%E6%88%90/</link>
     <description>Recent content in 没有完成 on Erics Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Eric</copyright>
-    <lastBuildDate>Tue, 15 Jul 2025 18:08:02 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%B2%A1%E6%9C%89%E5%AE%8C%E6%88%90/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Jul 2025 18:08:02 +0800</lastBuildDate><atom:link href="http://localhost:1313/Eric-s-Blog-v2/tags/%E6%B2%A1%E6%9C%89%E5%AE%8C%E6%88%90/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>构想一个智能todo项目进度管理软件</title>
-      <link>http://localhost:1313/posts/1759232853936-post1/</link>
+      <link>http://localhost:1313/Eric-s-Blog-v2/posts/1759232853936-post1/</link>
       <pubDate>Tue, 15 Jul 2025 18:08:02 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/1759232853936-post1/</guid>
+      <guid>http://localhost:1313/Eric-s-Blog-v2/posts/1759232853936-post1/</guid>
       <description></description>
       
     </item>

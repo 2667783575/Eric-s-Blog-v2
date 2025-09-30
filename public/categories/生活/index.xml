@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>生活 on Erics Blog</title>
-    <link>http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/</link>
+    <link>http://localhost:1313/Eric-s-Blog-v2/categories/%E7%94%9F%E6%B4%BB/</link>
     <description>Recent content in 生活 on Erics Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Eric</copyright>
-    <lastBuildDate>Mon, 14 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Eric-s-Blog-v2/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>about</title>
-      <link>http://localhost:1313/posts/about/</link>
+      <link>http://localhost:1313/Eric-s-Blog-v2/posts/about/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/about/</guid>
+      <guid>http://localhost:1313/Eric-s-Blog-v2/posts/about/</guid>
       <description></description>
       
     </item>
