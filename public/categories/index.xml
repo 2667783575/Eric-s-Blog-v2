@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Eric</copyright>
-    <lastBuildDate>Fri, 12 Sep 2025 14:48:33 +0800</lastBuildDate><atom:link href="http://localhost:1313/Eric-s-Blog-v2/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Sep 2025 16:40:36 +0800</lastBuildDate><atom:link href="http://localhost:1313/Eric-s-Blog-v2/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>折腾</title>
+      <link>http://localhost:1313/Eric-s-Blog-v2/categories/%E6%8A%98%E8%85%BE/</link>
+      <pubDate>Tue, 30 Sep 2025 16:40:36 +0800</pubDate>
+      
+      <guid>http://localhost:1313/Eric-s-Blog-v2/categories/%E6%8A%98%E8%85%BE/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>日常哲思</title>
