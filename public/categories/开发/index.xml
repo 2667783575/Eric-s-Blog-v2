@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>开发 on Erics Blog</title>
-    <link>http://localhost:33177/categories/%E5%BC%80%E5%8F%91/</link>
+    <link>http://localhost:1313/categories/%E5%BC%80%E5%8F%91/</link>
     <description>Recent content in 开发 on Erics Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Eric</copyright>
-    <lastBuildDate>Tue, 02 Sep 2025 21:22:10 +0800</lastBuildDate><atom:link href="http://localhost:33177/categories/%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Sep 2025 21:22:10 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>trs</title>
-      <link>http://localhost:33177/posts/1759232939643-post11/</link>
+      <link>http://localhost:1313/posts/1759232939643-post11/</link>
       <pubDate>Tue, 02 Sep 2025 21:22:10 +0800</pubDate>
       
-      <guid>http://localhost:33177/posts/1759232939643-post11/</guid>
+      <guid>http://localhost:1313/posts/1759232939643-post11/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:33177/posts/1759232939643-post11/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1759232939643-post11/featured.png" />
     </item>
     
   </channel>
