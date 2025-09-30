@@ -21,7 +21,7 @@ rssnext = { }
 advertisement = { }
 highlightCurrentMenuArea = true
 defaultBackgroundImage = "1.png"
-defaultFeaturedImage = "1.png"
+defaultFeaturedImage = "111.png"
 
 [header]
 layout = "basic"

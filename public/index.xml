@@ -16,7 +16,7 @@
       
       <guid>http://localhost:1313/posts/1759232950429-post13/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1759232950429-post13/featured.png" />
+      
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       
       <guid>http://localhost:1313/posts/1759232945319-post12/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1759232945319-post12/featured.png" />
+      
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       
       <guid>http://localhost:1313/posts/1759232939643-post11/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1759232939643-post11/featured.png" />
+      
     </item>
     
     <item>
@@ -46,7 +46,7 @@
       
       <guid>http://localhost:1313/posts/1759232934070-post10/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1759232934070-post10/featured.png" />
+      
     </item>
     
     <item>
@@ -56,7 +56,7 @@
       
       <guid>http://localhost:1313/posts/1759232929063-post9/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1759232929063-post9/featured.png" />
+      
     </item>
     
     <item>
@@ -66,7 +66,7 @@
       
       <guid>http://localhost:1313/posts/1759232901555-post8/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1759232901555-post8/featured.png" />
+      
     </item>
     
     <item>
@@ -76,7 +76,7 @@
       
       <guid>http://localhost:1313/posts/1759232893885-post7/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1759232893885-post7/featured.png" />
+      
     </item>
     
     <item>
@@ -86,7 +86,7 @@
       
       <guid>http://localhost:1313/posts/1759232888597-post6/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1759232888597-post6/featured.png" />
+      
     </item>
     
     <item>
@@ -96,7 +96,7 @@
       
       <guid>http://localhost:1313/posts/1759232882925-post5/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1759232882925-post5/featured.png" />
+      
     </item>
     
     <item>
@@ -106,7 +106,7 @@
       
       <guid>http://localhost:1313/posts/1759232878687-post4/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1759232878687-post4/featured.png" />
+      
     </item>
     
     <item>
@@ -116,7 +116,7 @@
       
       <guid>http://localhost:1313/posts/1759232872971-post3/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1759232872971-post3/featured.png" />
+      
     </item>
     
     <item>
@@ -126,7 +126,7 @@
       
       <guid>http://localhost:1313/posts/1759232865935-post2/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1759232865935-post2/featurerd.png" />
+      
     </item>
     
     <item>
@@ -136,7 +136,7 @@
       
       <guid>http://localhost:1313/posts/1759232853936-post1/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1759232853936-post1/featured.png" />
+      
     </item>
     
     <item>
@@ -146,7 +146,7 @@
       
       <guid>http://localhost:1313/posts/about/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/about/featured.png" />
+      
     </item>
     
   </channel>
