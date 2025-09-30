@@ -83,7 +83,7 @@ showTableOfContents = false
 showCards = false
 orderByWeight = false
 groupByYear = true
-cardView = false
+cardView = "Disable"
 cardViewScreenWidth = false
 constrainItemsWidth = false
 
