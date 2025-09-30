@@ -1,0 +1,19 @@
+[[main]]
+none = "none"
+
+[[main]]
+name = "about"
+pre = "star"
+pageRef = "posts/about"
+identifier = "eVQv9dIzHT"
+weight = 9_999
+
+[[main]]
+name = "posts"
+pre = "sun"
+pageRef = "posts"
+identifier = "AZF2VlCSyR"
+weight = 9_999
+
+[[footer]]
+none = "none"
