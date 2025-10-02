@@ -18,7 +18,7 @@
     <meta name="title" content="从零构建任务管理应用：我的前后端分离初体验 &middot; Erics Blog">
 
   
-  <meta name="description" content="也算是尝试过一回现代人的前后端开发了（大一上OODP做的jsp struts spring hibernate技术栈算是做过的原始人前后端开发吧（不对，那个时期的技术甚至不区分前端后端...））">
+  <meta name="description" content="之前在大一上学期的OODP课程中，曾用 JSP &#43; Struts &#43; Spring &#43; Hibernate 技术栈开发过 Web 应用。那时前后端尚未真正分离，甚至没有明确的“前端”和“后端”概念。而这次，我终于体验了一回现代意义上的前后端分离开发。">
   <meta name="keywords" content="example,tag,">
   
   
@@ -103,7 +103,7 @@
   <meta property="og:url" content="http://localhost:1313/Eric-s-Blog-v2/posts/1759239394060-post14/">
   <meta property="og:site_name" content="Erics Blog">
   <meta property="og:title" content="从零构建任务管理应用：我的前后端分离初体验">
-  <meta property="og:description" content="也算是尝试过一回现代人的前后端开发了（大一上OODP做的jsp struts spring hibernate技术栈算是做过的原始人前后端开发吧（不对，那个时期的技术甚至不区分前端后端...））">
+  <meta property="og:description" content="之前在大一上学期的OODP课程中，曾用 JSP &#43; Struts &#43; Spring &#43; Hibernate 技术栈开发过 Web 应用。那时前后端尚未真正分离，甚至没有明确的“前端”和“后端”概念。而这次，我终于体验了一回现代意义上的前后端分离开发。">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -115,7 +115,7 @@
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="从零构建任务管理应用：我的前后端分离初体验">
-  <meta name="twitter:description" content="也算是尝试过一回现代人的前后端开发了（大一上OODP做的jsp struts spring hibernate技术栈算是做过的原始人前后端开发吧（不对，那个时期的技术甚至不区分前端后端...））">
+  <meta name="twitter:description" content="之前在大一上学期的OODP课程中，曾用 JSP &#43; Struts &#43; Spring &#43; Hibernate 技术栈开发过 Web 应用。那时前后端尚未真正分离，甚至没有明确的“前端”和“后端”概念。而这次，我终于体验了一回现代意义上的前后端分离开发。">
 
   <script type="application/ld+json">
   [{
@@ -124,7 +124,7 @@
     "articleSection": "Posts",
     "name": "从零构建任务管理应用：我的前后端分离初体验",
     "headline": "从零构建任务管理应用：我的前后端分离初体验",
-    "description": "也算是尝试过一回现代人的前后端开发了（大一上OODP做的jsp struts spring hibernate技术栈算是做过的原始人前后端开发吧（不对，那个时期的技术甚至不区分前端后端...））",
+    "description": "之前在大一上学期的OODP课程中，曾用 JSP \u002b Struts \u002b Spring \u002b Hibernate 技术栈开发过 Web 应用。那时前后端尚未真正分离，甚至没有明确的“前端”和“后端”概念。而这次，我终于体验了一回现代意义上的前后端分离开发。",
     
     "inLanguage": "en",
     "url" : "http:\/\/localhost:1313\/Eric-s-Blog-v2\/posts\/1759239394060-post14\/",
@@ -141,7 +141,7 @@
     "keywords": ["example","tag"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "350"
+    "wordCount": "614"
   }]
   </script>
 
@@ -570,7 +570,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-09-30T00:00:00&#43;00:00">30 September 2025</time><span class="px-2 text-primary-500">&middot;</span><span>350 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+      <time datetime="2025-09-30T00:00:00&#43;00:00">30 September 2025</time><span class="px-2 text-primary-500">&middot;</span><span>614 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
     
 
     
@@ -675,12 +675,13 @@
         <li><a href="#vue">vue</a></li>
         <li><a href="#pinia">pinia</a></li>
         <li><a href="#js的槽点">js的槽点</a></li>
+        <li><a href="#axios">axios</a></li>
         <li><a href="#tailwindcss和daisyui">tailwindcss和daisyUI</a></li>
       </ul>
     </li>
     <li><a href="#后端部分的收获">后端部分的收获</a>
       <ul>
-        <li><a href="#miniaml-api">Miniaml Api</a></li>
+        <li><a href="#minimal-api">Minimal API</a></li>
         <li><a href="#配置数据库">配置数据库</a></li>
         <li><a href="#di容器">DI容器</a></li>
         <li><a href="#跨域">跨域</a></li>
@@ -688,7 +689,19 @@
         <li><a href="#数据库迁移">数据库迁移</a></li>
       </ul>
     </li>
-    <li><a href="#思想分析">思想分析</a></li>
+    <li><a href="#思想架构分析">思想架构分析</a>
+      <ul>
+        <li><a href="#前端架构">前端架构</a>
+          <ul>
+            <li><a href="#传统mvc模型">传统MVC模型</a></li>
+            <li><a href="#mvc的缺陷">MVC的缺陷</a></li>
+            <li><a href="#前端mvvm模型">前端MVVM模型</a></li>
+            <li><a href="#mvvm模型的好处">MVVM模型的好处</a></li>
+          </ul>
+        </li>
+        <li><a href="#后端架构">后端架构</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -708,12 +721,13 @@
         <li><a href="#vue">vue</a></li>
         <li><a href="#pinia">pinia</a></li>
         <li><a href="#js的槽点">js的槽点</a></li>
+        <li><a href="#axios">axios</a></li>
         <li><a href="#tailwindcss和daisyui">tailwindcss和daisyUI</a></li>
       </ul>
     </li>
     <li><a href="#后端部分的收获">后端部分的收获</a>
       <ul>
-        <li><a href="#miniaml-api">Miniaml Api</a></li>
+        <li><a href="#minimal-api">Minimal API</a></li>
         <li><a href="#配置数据库">配置数据库</a></li>
         <li><a href="#di容器">DI容器</a></li>
         <li><a href="#跨域">跨域</a></li>
@@ -721,7 +735,19 @@
         <li><a href="#数据库迁移">数据库迁移</a></li>
       </ul>
     </li>
-    <li><a href="#思想分析">思想分析</a></li>
+    <li><a href="#思想架构分析">思想架构分析</a>
+      <ul>
+        <li><a href="#前端架构">前端架构</a>
+          <ul>
+            <li><a href="#传统mvc模型">传统MVC模型</a></li>
+            <li><a href="#mvc的缺陷">MVC的缺陷</a></li>
+            <li><a href="#前端mvvm模型">前端MVVM模型</a></li>
+            <li><a href="#mvvm模型的好处">MVVM模型的好处</a></li>
+          </ul>
+        </li>
+        <li><a href="#后端架构">后端架构</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -751,9 +777,9 @@
     
 </h2>
 <p>故事的起因是我的<a
-  href="http://localhost:1313/Eric-s-Blog-v2/posts/1759232853936-post1/"
+  href="https://2667783575.github.io/Eric-s-Blog-v2/posts/1759232853936-post1/"
     target="_blank"
-  >另一篇博文</a>，那篇博文只有一个构思，而没有考虑实现的难度，使用Qt/C++ Postgresql来实现这样一个软件难度是非常大的。</p>
+  >另一篇博文</a>，那篇博文只有构思，而没有考虑实际使用Qt/C++ Postgresql来实现这样一个软件难度是非常大的。</p>
 <p>然而刚好最近在看C#，也开始了解了ASP.NET Core Web API，又恰好我学过一点点Postgresql，并且想要了解后端架构，于是我认为我有充分的能力去构建项目的后端。</p>
 <p>至于前端部分，我对h5,js,css的基础内容已经了解，在现代前端中基本上依赖vue,axios,tailwind也就能很简单的实现功能了。而恰好我对vue的基础的数据绑定略有认识，同时axios的基础使用非常简单，想必前端开发也不在话下。</p>
 <p>当然后面的展开证明我不会的部分还是很多的，在实战过程中也接触到好用的tailwind组件库daisyUi，vue开发状态管理库pinia。后端也见到了数据库Migration等有趣的技术，拓宽了视野。</p>
@@ -785,11 +811,11 @@
     
 </h3>
 <p>对vue组件管理有了更深刻的认识。Vue 是一个渐进式 JavaScript 框架，核心优势在于组件化开发与响应式数据绑定，能够高效地构建用户界面。有父子组件的嵌套，就必然遇到子组件父组件通信的问题。vue3中通常父组件通过props或者slots向子组件传递数据，而子组件主要通过emit向父组件传递数据。</p>
-<p>在具体的使用过程中遇到比较多的问题是常常会忘记vue的ref对象必须使用value，而不能用对象本身</p>
+<p>在具体的使用过程中遇到比较多的问题是常常会忘记ref对象必须使用value，而不能用对象本身。因为ref 是响应式引用，必须通过 .value 访问/赋值，否则会破坏响应式链。在模板中使用 ref 时，Vue 会自动解包（无需 .value），但在 script setup标签中必须显式使用。</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">obj</span> <span class="o">=</span> <span class="nx">ref</span><span class="p">(</span><span class="kc">null</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nx">obj</span><span class="p">.</span><span class="nx">value</span> <span class="o">=</span> <span class="s2">&#34;foo&#34;</span>  <span class="c1">// 正确，修改响应式数据
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">obj</span> <span class="o">=</span> <span class="s2">&#34;foo&#34;</span>        <span class="c1">// 错误，丢失响应式能力
-</span></span></span></code></pre></div><p>虽然这可以说是一个非常蠢的，非常新手的，非常没有技术含量的问题，但是真的会非常经常地写错。</p>
+</span></span></span></code></pre></div><p>虽然这可以说是一个非常没有技术含量的问题，但是作为新手的确会经常地写错。</p>
 <p>在使用vue时还遇到一个非常棘手的问题，就是全局状态管理问题。</p>
 <p>如上文所说，本身的vue只能通过父组件向子组件传props/slots和子组件向父组件传emit来进行数据的上下流动，然而当你遇到多个组件嵌套</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-vue" data-lang="vue"><span class="line"><span class="cl"><span class="c">&lt;!--</span> <span class="nx">App</span><span class="p">.</span><span class="nx">vue</span> <span class="o">--&gt;</span>
@@ -804,7 +830,7 @@
 </span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">template</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl"><span class="c">&lt;!--</span> <span class="p">......</span> <span class="o">--&gt;</span>
 </span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">template</span><span class="p">&gt;</span>
-</span></span></code></pre></div><p>我们且不考虑更复杂的情况，单单是跨了一层的嵌套，如果你现在想要Compo2.vue获得并执行App.vue的一个函数(比如说axio向服务器发起通信请求，这种核心逻辑通常必须写在App.vue，而不能分散在子组件中)，你就不得不通过props将函数一层一层传下去</p>
+</span></span></code></pre></div><p>我们且不考虑更复杂的情况，单单是跨了一层的嵌套，如果你现在想要Compo2.vue获得并执行App.vue的一个函数(比如说axios向服务器发起通信请求，如果将 API 调用逻辑集中在根组件，会导致深层组件难以复用)，你就不得不通过props将函数一层一层传下去</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-vue" data-lang="vue"><span class="line"><span class="cl"><span class="c">&lt;!--</span> <span class="nx">App</span><span class="p">.</span><span class="nx">vue</span> <span class="o">--&gt;</span>
 </span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">template</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">Compo1</span> <span class="nt">:getTasks</span><span class="o">=</span><span class="s">&#34;getTasks&#34;</span><span class="p">/&gt;</span>
@@ -835,7 +861,7 @@
     </span>        
     
 </h3>
-<p>pinia是一个vue的状态管理库，利用pinia defineStore就可以定义全局状态，在任何组件中都可以直接通过函数获得相应store而使用全局函数和读写全局状态。在一开始我还迟疑是否要向项目引入pinia，因为担心项目变得更复杂，但是在看过pinia官网后，我的疑虑打消了，pinia的使用非常简单，基本使用看了两页就可以直接上手了，因此我毫不犹豫地引入了pinia。</p>
+<p>Pinia 是 Vue 官方推荐的状态管理库，替代了 Vuex，利用pinia的defineStore函数就可以定义全局状态，在任何组件中都可以直接通过函数获得相应store而使用全局函数和读写全局状态。在一开始我还迟疑是否要向项目引入pinia，因为担心项目变得更复杂，但是在看过pinia官网后，我的疑虑打消了，pinia的使用非常简单，基本使用看了两页就可以直接上手了，因此我毫不犹豫地引入了pinia。</p>
 
 <h3 class="relative group">js的槽点 
     <div id="js的槽点" class="anchor"></div>
@@ -846,7 +872,95 @@
     </span>        
     
 </h3>
-<p>js的一大槽点是作为一个前端语言，它很不严谨，总是写成什么样子都不会报错，但是可能触发各种各样的问题，让你的页面表现不正常。如果有机会的话以后一定要学学ts</p>
+<p>js的一大槽点是作为一个前端语言，它很不严谨，可能触发各种各样的问题，让你的页面表现不正常。如果有机会的话以后一定要学学ts</p>
+
+<h3 class="relative group">axios 
+    <div id="axios" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#axios" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>axios确实是一个非常好用非常简单的框架，</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="c1">// 定义全局状态
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">export</span> <span class="kr">const</span> <span class="nx">useTaskStore</span> <span class="o">=</span> <span class="nx">defineStore</span><span class="p">(</span><span class="s1">&#39;tasks&#39;</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">state</span><span class="o">:</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">({</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">tasks</span><span class="o">:</span> <span class="p">[],</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">loading</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">error</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">selectedTask</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}),</span><span class="c1">//全局变量
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nx">actions</span><span class="o">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">async</span> <span class="nx">fetchTasks</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="k">this</span><span class="p">.</span><span class="nx">loading</span> <span class="o">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">      <span class="k">this</span><span class="p">.</span><span class="nx">error</span> <span class="o">=</span> <span class="kc">null</span>
+</span></span><span class="line"><span class="cl">      <span class="k">try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">const</span> <span class="nx">response</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">axios</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;http://localhost:5005/taskitems&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">tasks</span> <span class="o">=</span> <span class="nx">response</span><span class="p">.</span><span class="nx">data</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span> <span class="k">catch</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">error</span> <span class="o">=</span> <span class="s2">&#34;get failed&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">error</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span> <span class="k">finally</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">loading</span> <span class="o">=</span> <span class="kc">false</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">async</span> <span class="nx">postTask</span><span class="p">(</span><span class="nx">task</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">loading</span> <span class="o">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">error</span> <span class="o">=</span> <span class="kc">null</span>
+</span></span><span class="line"><span class="cl">        <span class="k">try</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="kr">const</span> <span class="nx">response</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">axios</span><span class="p">.</span><span class="nx">post</span><span class="p">(</span><span class="s1">&#39;http://localhost:5005/taskitems&#39;</span><span class="p">,</span><span class="nx">task</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="k">this</span><span class="p">.</span><span class="nx">tasks</span><span class="p">.</span><span class="nx">unshift</span><span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">data</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span><span class="k">catch</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">this</span><span class="p">.</span><span class="nx">error</span> <span class="o">=</span> <span class="s2">&#34;post failed&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">error</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span><span class="k">finally</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">this</span><span class="p">.</span><span class="nx">loading</span> <span class="o">=</span> <span class="kc">false</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">async</span> <span class="nx">updateTask</span><span class="p">(</span><span class="nx">task</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">loading</span> <span class="o">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">error</span> <span class="o">=</span> <span class="kc">null</span>
+</span></span><span class="line"><span class="cl">        <span class="k">try</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="kr">const</span> <span class="nx">response</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">axios</span><span class="p">.</span><span class="nx">put</span><span class="p">(</span><span class="s1">&#39;http://localhost:5005/taskitems/&#39;</span><span class="o">+</span><span class="nx">task</span><span class="p">.</span><span class="nx">id</span><span class="p">,</span><span class="nx">task</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="kr">const</span> <span class="nx">index</span> <span class="o">=</span>  <span class="k">this</span><span class="p">.</span><span class="nx">tasks</span><span class="p">.</span><span class="nx">findIndex</span><span class="p">(</span><span class="nx">t</span><span class="p">=&gt;</span><span class="nx">t</span><span class="p">.</span><span class="nx">id</span><span class="o">===</span><span class="nx">task</span><span class="p">.</span><span class="nx">id</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span><span class="p">(</span><span class="nx">index</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">                <span class="k">this</span><span class="p">.</span><span class="nx">tasks</span><span class="p">[</span><span class="nx">index</span><span class="p">]</span> <span class="o">=</span> <span class="nx">response</span><span class="p">.</span><span class="nx">data</span>
+</span></span><span class="line"><span class="cl">                <span class="k">this</span><span class="p">.</span><span class="nx">selectedTask</span> <span class="o">=</span> <span class="nx">response</span><span class="p">.</span><span class="nx">data</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">catch</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">this</span><span class="p">.</span><span class="nx">error</span> <span class="o">=</span> <span class="s2">&#34;put failed&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">error</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">finally</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">this</span><span class="p">.</span><span class="nx">loading</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">async</span> <span class="nx">deleteTask</span><span class="p">(</span><span class="nx">id</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">            <span class="k">this</span><span class="p">.</span><span class="nx">loading</span> <span class="o">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">error</span> <span class="o">=</span> <span class="kc">null</span>
+</span></span><span class="line"><span class="cl">        <span class="k">try</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="kr">await</span> <span class="nx">axios</span><span class="p">.</span><span class="k">delete</span><span class="p">(</span><span class="s1">&#39;http://localhost:5005/taskitems/&#39;</span><span class="o">+</span><span class="nx">id</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="kr">const</span> <span class="nx">index</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">tasks</span><span class="p">.</span><span class="nx">findIndex</span><span class="p">(</span><span class="nx">t</span> <span class="p">=&gt;</span> <span class="nx">t</span><span class="p">.</span><span class="nx">id</span> <span class="o">===</span> <span class="nx">id</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="nx">index</span> <span class="o">!==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">this</span><span class="p">.</span><span class="nx">tasks</span><span class="p">.</span><span class="nx">splice</span><span class="p">(</span><span class="nx">index</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">catch</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">this</span><span class="p">.</span><span class="nx">error</span> <span class="o">=</span> <span class="s2">&#34;put failed&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">error</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">finally</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">this</span><span class="p">.</span><span class="nx">loading</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span><span class="c1">// 全局函数
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">})</span>
+</span></span></code></pre></div><p>Note: 这里为了短期方便直接使用了应编码，实际开发更推荐axios.create({ baseURL: &hellip; })，然后单独全局配置baseURL，方便统一管理API地址</p>
+<p>可见只要非常简单的使用axios的函数就可以实现发送请求的基本功能。</p>
 
 <h3 class="relative group">tailwindcss和daisyUI 
     <div id="tailwindcss和daisyui" class="anchor"></div>
@@ -858,7 +972,7 @@
     
 </h3>
 <p>虽然我在做很多小组任务时对页面外观都几乎没有要求，只要实现功能就行。但是自己做的东西，还是希望做的让自己满意，所以在询问ai之后，ai推荐使用tailwindcss和daisyUI进行外观配置</p>
-<p>首先tailwindcss是一个主打utility式的css的工具，它主要的优越之处在于抛弃了原本的先写各种class使用的思路，而是使用写好的utility，独立而分散的配置每一个标签的外观。而daisyUI是一个基于tailwindcss的组件库，它预先定义了很多组件的外观和配置，如卡片，列表等可以直接使用，使用tailwind的外观设计还是很顺利的。</p>
+<p>首先tailwindcss是一个主打utility式的css的工具，它主要的优越之处在于抛弃了原本的先写各种class使用的思路，而是使用写好的utility，独立而分散的配置每一个标签的外观。而daisyUI是一个基于tailwindcss的组件库，它预先定义了很多组件的外观和配置，如卡片，列表等可以直接使用，并且daisyUI 提供了主题切换能力，适合快速构建美观界面。总的来说使用tailwind的外观设计还是很顺利的。</p>
 
 <h2 class="relative group">后端部分的收获 
     <div id="后端部分的收获" class="anchor"></div>
@@ -871,17 +985,17 @@
 </h2>
 <p>这次后端开发是我首次使用 ASP.NET Core 构建 RESTful API。虽然此前接触过 Java Spring，但 C# 的生态和工具链仍带来不少新鲜感。通过实践，我接触到了 Minimal API、依赖注入、数据库迁移、跨域配置以及 API 文档生成等技术部分</p>
 
-<h3 class="relative group">Miniaml Api 
-    <div id="miniaml-api" class="anchor"></div>
+<h3 class="relative group">Minimal API 
+    <div id="minimal-api" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#miniaml-api" aria-label="Anchor">#</a>
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#minimal-api" aria-label="Anchor">#</a>
     </span>        
     
 </h3>
 <p>ASP.NET Core 的 Minimal APIs 是一种轻量级 API 开发模式，无需创建控制器类，直接在 Program.cs 中通过方法链定义路由和处理逻辑，极大简化了小型项目的搭建流程</p>
-<p>构建restAPI的过程就是向app的map函数传回调函数</p>
+<p>构建RESTfulAPI的过程就是向app的map函数传回调函数</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="n">app</span><span class="p">.</span><span class="n">MapGet</span><span class="p">(</span><span class="s">&#34;foo&#34;</span><span class="p">,</span><span class="kd">async</span><span class="p">(</span><span class="n">TaskDb</span> <span class="n">db</span><span class="p">)=&gt;{</span>
 </span></span><span class="line"><span class="cl"><span class="c1">//...处理请求</span>
 </span></span><span class="line"><span class="cl">
@@ -898,28 +1012,30 @@
     
 </h3>
 <p>配置数据库的过程还是相当简单的，首先我们要配置数据对象</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="c1">// Task.cs</span>
-</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">class</span> <span class="nc">Task</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="c1">// TaskItem.cs</span>
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">class</span> <span class="nc">TaskItem</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kt">int</span> <span class="n">Id</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="n">required</span> <span class="kd">public</span> <span class="kt">string</span> <span class="n">Title</span> <span class="p">{</span> <span class="k">set</span><span class="p">;</span> <span class="k">get</span><span class="p">;</span> <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kt">string?</span> <span class="n">Content</span> <span class="p">{</span> <span class="k">set</span><span class="p">;</span> <span class="k">get</span><span class="p">;</span> <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kt">string?</span> <span class="n">Status</span> <span class="p">{</span> <span class="k">set</span><span class="p">;</span> <span class="k">get</span><span class="p">;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="n">required</span> <span class="kt">string</span> <span class="n">Title</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kt">string?</span> <span class="n">Content</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kt">string?</span> <span class="n">Status</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kt">string?</span> <span class="n">Owner</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="n">DateTime</span> <span class="n">CreatedAt</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><p>再去配置我们的针对这种对象的数据库上下文（什么是数据库上下文，见下一节DI容器）</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">Microsoft.EntityFrameworkCore</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// TaskDb继承DbContext</span>
 </span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">TaskDb</span> <span class="p">:</span> <span class="n">DbContext</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="n">TaskDb</span><span class="p">(</span><span class="n">DbContextOptions</span><span class="p">&lt;</span><span class="n">TaskDb</span><span class="p">&gt;</span> <span class="n">options</span><span class="p">)</span> <span class="p">:</span> <span class="k">base</span><span class="p">(</span><span class="n">options</span><span class="p">)</span> <span class="p">{</span> <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="n">DbSet</span><span class="p">&lt;</span><span class="n">Task</span><span class="p">&gt;</span> <span class="n">Tasks</span> <span class="p">=&gt;</span> <span class="n">Set</span><span class="p">&lt;</span><span class="n">Task</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="n">DbSet</span><span class="p">&lt;</span><span class="n">TaskItem</span><span class="p">&gt;</span> <span class="n">Tasks</span> <span class="p">=&gt;</span> <span class="n">Set</span><span class="p">&lt;</span><span class="n">TaskItem</span><span class="p">&gt;();</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="kd">protected</span> <span class="kd">override</span> <span class="k">void</span> <span class="n">OnModelCreating</span><span class="p">(</span><span class="n">ModelBuilder</span> <span class="n">modelBuilder</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">    <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="k">base</span><span class="p">.</span><span class="n">OnModelCreating</span><span class="p">(</span><span class="n">modelBuilder</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">modelBuilder</span><span class="p">.</span><span class="n">Entity</span><span class="p">&lt;</span><span class="n">Task</span><span class="p">&gt;(</span><span class="n">entity</span> <span class="p">=&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">modelBuilder</span><span class="p">.</span><span class="n">Entity</span><span class="p">&lt;</span><span class="n">TaskItem</span><span class="p">&gt;(</span><span class="n">entity</span> <span class="p">=&gt;</span>
 </span></span><span class="line"><span class="cl">        <span class="p">{</span>
 </span></span><span class="line"><span class="cl">            <span class="n">entity</span><span class="p">.</span><span class="n">HasKey</span><span class="p">(</span><span class="n">e</span> <span class="p">=&gt;</span> <span class="n">e</span><span class="p">.</span><span class="n">Id</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">            <span class="n">entity</span><span class="p">.</span><span class="n">Property</span><span class="p">(</span><span class="n">e</span> <span class="p">=&gt;</span> <span class="n">e</span><span class="p">.</span><span class="n">Id</span><span class="p">).</span><span class="n">ValueGeneratedOnAdd</span><span class="p">();</span>
@@ -938,12 +1054,13 @@
     
 </h3>
 <p>就和JavaSpring有一样，C#也有依赖注入，控制反转容器。并且ASP.NET Core 内置了轻量级的依赖注入容器（Microsoft.Extensions.DependencyInjection），无需额外引入 Spring 等框架，开箱即用。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">Microsoft.Extension.DependencyInjection</span><span class="p">;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">Microsoft.Extensions.DependencyInjection</span><span class="p">;</span>
 </span></span></code></pre></div><p>在我看来，IoC容器所做的事就是为各种类自动注入依赖对象并管理对象的生命周期。这样项目的很多上下文依赖都继承特定的上下文部分，然后就可以在容器中注册，由容器来管理依赖和生命周期，简化了管理依赖的困难。</p>
 <p>而ASP.NET WebApplication的构建采用构造器模式，先创建构造器，再在构造器中设置各种app的配置，配置完毕后再生成app对象，而依赖管理等这一步就是在构造器中设置的</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="kt">var</span> <span class="n">builder</span> <span class="p">=</span> <span class="n">WebApplication</span><span class="p">.</span><span class="n">CreateBuilder</span><span class="p">(</span><span class="n">args</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl"><span class="c1">// Add services to the container.</span>
 </span></span><span class="line"><span class="cl"><span class="c1">// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 通过AddDbContext&lt;TaskDb&gt;把TaskDb添加到容器中</span>
 </span></span><span class="line"><span class="cl"><span class="n">builder</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">AddDbContext</span><span class="p">&lt;</span><span class="n">TaskDb</span><span class="p">&gt;(</span><span class="n">opt</span> <span class="p">=&gt;</span> <span class="p">{</span> <span class="n">opt</span><span class="p">.</span><span class="n">UseNpgsql</span><span class="p">(</span><span class="n">builder</span><span class="p">.</span><span class="n">Configuration</span><span class="p">.</span><span class="n">GetConnectionString</span><span class="p">(</span><span class="s">&#34;DefaultConnection&#34;</span><span class="p">));</span> <span class="p">});</span>
 </span></span><span class="line"><span class="cl"><span class="n">builder</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">AddDatabaseDeveloperPageExceptionFilter</span><span class="p">();</span>
 </span></span></code></pre></div><p>而builder.Services就是一个IServiceCollection，我们通过AddDbContext方法将TaskDb设置为我们要使用的数据库上下文依赖，同时设置数据库连接参数为appsettings.json里面的DefaultConnection这个字符串。</p>
@@ -964,6 +1081,7 @@
 </span></span><span class="line"><span class="cl">    <span class="n">options</span><span class="p">.</span><span class="n">AddPolicy</span><span class="p">(</span><span class="s">&#34;AllowVueDev&#34;</span><span class="p">,</span> <span class="n">policy</span> <span class="p">=&gt;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="n">policy</span><span class="p">.</span><span class="n">AllowAnyOrigin</span><span class="p">().</span><span class="n">AllowAnyHeader</span><span class="p">().</span><span class="n">AllowAnyMethod</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// 生产环境中应限制具体域名，避免安全风险</span>
 </span></span><span class="line"><span class="cl">    <span class="p">});</span>
 </span></span><span class="line"><span class="cl"><span class="p">});</span>
 </span></span></code></pre></div>
@@ -976,7 +1094,7 @@
     </span>        
     
 </h3>
-<p>ASP.NET Core 内置了对 OpenAPI（原 Swagger 规范）的支持。通过 Microsoft.AspNetCore.OpenApi 包，我们可以自动生成 API 文档，并在开发环境启用交互式 UI（类似 Swagger UI），方便调试接口。</p>
+<p>我使用 Microsoft.AspNetCore.OpenApi 和 Swashbuckle.AspNetCore 自动生成并可视化 API 文档（Swagger UI），并在开发环境启用交互式 UI（类似 Swagger UI），方便调试接口。</p>
 
 <h3 class="relative group">数据库迁移 
     <div id="数据库迁移" class="anchor"></div>
@@ -990,17 +1108,98 @@
 <p>通过 EF Core 的迁移功能，我可以将 C# 模型变更同步到数据库。例如，添加新字段后，只需运行</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">dotnet ef migrations add AddTaskStatus
 </span></span><span class="line"><span class="cl">dotnet ef database update
-</span></span></code></pre></div><p>就可以同步C#模型到数据库，而不用手写sql</p>
+</span></span></code></pre></div><p>就可以同步C#模型到数据库，而不用手写sql。</p>
+<p>迁移文件是代码化的数据库变更记录，可纳入版本控制，实现数据库版本管理，这种像管理Git项目一样管理数据库结构的做法，初见不可谓不惊艳。</p>
 
-<h2 class="relative group">思想分析 
-    <div id="思想分析" class="anchor"></div>
+<h2 class="relative group">思想架构分析 
+    <div id="思想架构分析" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#%e6%80%9d%e6%83%b3%e5%88%86%e6%9e%90" aria-label="Anchor">#</a>
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#%e6%80%9d%e6%83%b3%e6%9e%b6%e6%9e%84%e5%88%86%e6%9e%90" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
+<p>其实架构分析往往不在开发后才分析，而是在开发前就学习，开发后再总结，不过这里省略开发前的学习，直接谈实战接触后的认识了。</p>
+
+<h3 class="relative group">前端架构 
+    <div id="前端架构" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#%e5%89%8d%e7%ab%af%e6%9e%b6%e6%9e%84" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+
+<h4 class="relative group">传统MVC模型 
+    <div id="传统mvc模型" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#%e4%bc%a0%e7%bb%9fmvc%e6%a8%a1%e5%9e%8b" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>先在开始讲现代项目架构之前，先解释一下传统的MVC模型。</p>
+<p>MVC是在前后端尚不分离时就有的经典模型，非常经典的例子就是我当初写过的Java Spring+Hibernate+Struts技术栈。Struts 是 MVC 的 Web 层实现，Spring 管理业务逻辑（Service），Hibernate 管理数据访问（DAO），三者共同构成分层架构。</p>
+<p>MVC中M指模型，V指视图，而C是控制器</p>
+<p>M是后端的具体业务，如数据库的管理等，V是前端显示的视图。MVC的在当初的卓越在于它在前后端不分离(jsp)时代就有了让前端和后端尽可能分开的意识。它要求前端不能直接去访问后端，而是通过控制器Controller去访问后端。前端视图View只能调用Controller，Controller再去调用模型Model中的业务代码处理业务。</p>
+
+<h4 class="relative group">MVC的缺陷 
+    <div id="mvc的缺陷" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#mvc%e7%9a%84%e7%bc%ba%e9%99%b7" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>随着MVC项目的不断发展，就不得不写出大量Controller胶水代码来黏合M和V，同时使得Controller的这对职责过多，容易成为上帝类，对项目管理产生很大的挑战，也降低了开发效率。</p>
+
+<h4 class="relative group">前端MVVM模型 
+    <div id="前端mvvm模型" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#%e5%89%8d%e7%ab%afmvvm%e6%a8%a1%e5%9e%8b" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>现代前端如vue采用的架构叫MVVM架构，它由三个部分M,V,VM构成。
+它其实很好理解，但首先让我们抛掉MVC的包袱。</p>
+<p>其中M为模型，V为视图，而VM则叫模型视图。</p>
+<p>我们先给出综述：</p>
+<p>首先MVVM模式强依赖于数据绑定，它的核心思路是M中存着前端业务代码（如各种向后端发送请求的逻辑，前端存有的核心数据等），而VM持有希望暴露给视图的代码，V则是视图呈现。</p>
+<p>这里的M，V延续了MVC中的词汇，然而和传统MVC中的MV并不相同。最大的区别就是应用场景从前后端变成了仅前端。这里的M是前端的M，不是后端的M。这句话的意思是，在传统MVC模型中M是后端的核心逻辑(如通过ORM向数据库中添加一名学生)，V是大前端，而前端MVC是单针对于前端说的，这里的 M 是前端的数据模型（如通过 axios 向 /student 发送 POST 请求），而具体的后端持久化逻辑（如 ORM 操作）对前端是透明的。而V仅仅指显示出去的视图。</p>
+<p>那么什么是VM呢，View-Model视图模型，其实名字上已经能看出，它就是指视图的模型。我们不直接把模型中的数据给到视图来显示，而是通过把数据给到VM，VM再把数据给到V来显示。</p>
+<p>前面说过，MVVM强依赖数据绑定，这正是在VM中体现的，VM会监听 Model 的变化并自动更新 View，同时也处理用户的交互（如点击、输入）并更新 Model。</p>
+
+<h4 class="relative group">MVVM模型的好处 
+    <div id="mvvm模型的好处" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#mvvm%e6%a8%a1%e5%9e%8b%e7%9a%84%e5%a5%bd%e5%a4%84" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>由于VM通过响应式数据自动更新视图，用户交互通过事件更新VM状态，自动同步M和V的状态，减少了手动操作DOM的样板代码，使代码整洁，降低出错率。</p>
+<p>更加模块化，职责更清晰。VM专注业务状态和逻辑，不需直接操作DOM;V只负责展示，通过声明式语法和VM通信；M只包含核心数据和逻辑。</p>
+<p>易测试。VM是纯js对象，不依赖DOM，可以方便地做单元测试。</p>
+<p>响应式数据天然更适合响应式编程。</p>
+
+<h3 class="relative group">后端架构 
+    <div id="后端架构" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#%e5%90%8e%e7%ab%af%e6%9e%b6%e6%9e%84" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>该项目目前后端过于简单，只是参考了RESTful API和Minimal API，实际上还没有采用Clean Architecture架构。还没有划分DTO，所以该博客省略该部分。</p>
+<p>未来可引入 DTO（Data Transfer Object） 隔离数据库实体与 API 模型，提升安全性与灵活性。</p>
 
           
           
