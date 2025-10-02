@@ -20,6 +20,26 @@
     </item>
     
     <item>
+      <title>Example</title>
+      <link>http://localhost:1313/Eric-s-Blog-v2/tags/example/</link>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/Eric-s-Blog-v2/tags/example/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tag</title>
+      <link>http://localhost:1313/Eric-s-Blog-v2/tags/tag/</link>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/Eric-s-Blog-v2/tags/tag/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>哲思</title>
       <link>http://localhost:1313/Eric-s-Blog-v2/tags/%E5%93%B2%E6%80%9D/</link>
       <pubDate>Fri, 12 Sep 2025 14:48:33 +0800</pubDate>

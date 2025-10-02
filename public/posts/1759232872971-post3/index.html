@@ -684,6 +684,92 @@
       
       
       
+        <div class="order-first lg:ml-auto px-0 lg:order-last lg:ps-8">
+          <div class="toc ps-5 print:hidden lg:sticky lg:top-10">
+            
+              <details
+  open
+  id="TOCView"
+  class="toc-right mt-0 overflow-y-auto overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg -ms-5 ps-5 pe-2 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 -ms-5 ps-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted border-s-1 -ms-5 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#背景">背景</a></li>
+    <li><a href="#为什么我们不应该广泛使用const返回值">为什么我们不应该广泛使用const返回值?</a>
+      <ul>
+        <li><a href="#原因1-降低性能阻止移动语义rvonrvo">原因1 降低性能(阻止移动语义,RVO,NRVO)</a></li>
+        <li><a href="#原因2-阻碍现代范式">原因2 阻碍现代范式</a>
+          <ul>
+            <li><a href="#链式调用fluent-interface">链式调用(Fluent Interface)</a></li>
+            <li><a href="#就地操作">就地操作</a></li>
+            <li><a href="#一种惯用法">一种惯用法</a></li>
+          </ul>
+        </li>
+        <li><a href="#原因3-更好的现代方案">原因3 更好的现代方案</a></li>
+        <li><a href="#原因4-一致性原则">原因4 一致性原则</a></li>
+      </ul>
+    </li>
+    <li><a href="#什么时候应该用const返回值">什么时候应该用const返回值?</a></li>
+    <li><a href="#总结">总结</a>
+      <ul>
+        <li><a href="#1-考虑书的时代性">1. 考虑书的时代性</a></li>
+        <li><a href="#2-考虑自己的经验">2. 考虑自己的经验</a></li>
+        <li><a href="#3-实践出真知">3. 实践出真知</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg -ms-5 ps-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 -ms-5 ps-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 border-s-1 -ms-5 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#背景">背景</a></li>
+    <li><a href="#为什么我们不应该广泛使用const返回值">为什么我们不应该广泛使用const返回值?</a>
+      <ul>
+        <li><a href="#原因1-降低性能阻止移动语义rvonrvo">原因1 降低性能(阻止移动语义,RVO,NRVO)</a></li>
+        <li><a href="#原因2-阻碍现代范式">原因2 阻碍现代范式</a>
+          <ul>
+            <li><a href="#链式调用fluent-interface">链式调用(Fluent Interface)</a></li>
+            <li><a href="#就地操作">就地操作</a></li>
+            <li><a href="#一种惯用法">一种惯用法</a></li>
+          </ul>
+        </li>
+        <li><a href="#原因3-更好的现代方案">原因3 更好的现代方案</a></li>
+        <li><a href="#原因4-一致性原则">原因4 一致性原则</a></li>
+      </ul>
+    </li>
+    <li><a href="#什么时候应该用const返回值">什么时候应该用const返回值?</a></li>
+    <li><a href="#总结">总结</a>
+      <ul>
+        <li><a href="#1-考虑书的时代性">1. 考虑书的时代性</a></li>
+        <li><a href="#2-考虑自己的经验">2. 考虑自己的经验</a></li>
+        <li><a href="#3-实践出真知">3. 实践出真知</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+
+
+            
+            
+          </div>
+        </div>
+      
 
 
       <div class="min-w-0 min-h-0 max-w-fit">
