@@ -40,8 +40,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/Eric-s-Blog-v2/css/main.bundle.min.f875dda8a6dc16f33adb8873681506c07444631be7e42b7575718d40698db0db7cd237ac4306f361ed9daaa2f828ff344a9fc7f845cf0217dcbc9360d395f0f9.css"
-    integrity="sha512-&#43;HXdqKbcFvM624hzaBUGwHREYxvn5Ct1dXGNQGmNsNt80jesQwbzYe2dqqL4KP80Sp/H&#43;EXPAhfcvJNg05Xw&#43;Q==">
+    href="/Eric-s-Blog-v2/css/main.bundle.min.98419a8acd70d20317a2e59fe3d6d5cace63ac39c2c9cfe6138054e01dc593322cd75672fe516c72914a5924ea71c169c16e45b15001d6170bac03a8695d7f3f.css"
+    integrity="sha512-mEGais1w0gMXouWf49bVys5jrDnCyc/mE4BU4B3FkzIs11Zy/lFscpFKWSTqccFpwW5FsVAB1hcLrAOoaV1/Pw==">
 
   
   
@@ -801,7 +801,8 @@
 </span></span></code></pre></div><p>若*的重载函数返回const Matrix64，编译器就会报错，否则就难以找到错误发生的地方。
 听起来非常有道理，于是书上说</p>
 <blockquote>
-<p>一个函数返回一个 constant value（常量值），常常可以在不放弃安全和效率的前提下尽可能减少客户的错误造成的影响。</p></blockquote>
+<p>一个函数返回一个 constant value（常量值），常常可以在不放弃安全和效率的前提下尽可能减少客户的错误造成的影响。</p>
+</blockquote>
 <p>然而今天机缘巧合之下我去问dicksip我们是不是应该在cpp的函数返回值上默认const，它却给出了否定的答案。
 其实原因也非常简单，只是我之前没有去想</p>
 
