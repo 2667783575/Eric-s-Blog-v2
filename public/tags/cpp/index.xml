@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Eric</copyright>
-    <lastBuildDate>Wed, 20 Aug 2025 18:25:46 +0800</lastBuildDate><atom:link href="http://localhost:1313/Eric-s-Blog-v2/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Eric-s-Blog-v2/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>reference_wrapper 的模板实现</title>
+      <link>http://localhost:1313/Eric-s-Blog-v2/posts/1762602009775-post17/</link>
+      <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/Eric-s-Blog-v2/posts/1762602009775-post17/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Eric-s-Blog-v2/posts/1762602009775-post17/featured.png" />
+    </item>
     
     <item>
       <title>关于cpp中const返回值</title>
