@@ -7,7 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Eric</copyright>
-    <lastBuildDate>Sat, 08 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Eric-s-Blog-v2/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Eric-s-Blog-v2/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Example</title>
+      <link>http://localhost:1313/Eric-s-Blog-v2/tags/example/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/Eric-s-Blog-v2/tags/example/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tag</title>
+      <link>http://localhost:1313/Eric-s-Blog-v2/tags/tag/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/Eric-s-Blog-v2/tags/tag/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>日常</title>
+      <link>http://localhost:1313/Eric-s-Blog-v2/tags/%E6%97%A5%E5%B8%B8/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/Eric-s-Blog-v2/tags/%E6%97%A5%E5%B8%B8/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Cpp</title>
@@ -35,26 +65,6 @@
       <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/Eric-s-Blog-v2/tags/%E6%97%A5%E5%B8%B8%E5%93%B2%E6%80%9D/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Example</title>
-      <link>http://localhost:1313/Eric-s-Blog-v2/tags/example/</link>
-      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/Eric-s-Blog-v2/tags/example/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Tag</title>
-      <link>http://localhost:1313/Eric-s-Blog-v2/tags/tag/</link>
-      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/Eric-s-Blog-v2/tags/tag/</guid>
       <description></description>
       
     </item>

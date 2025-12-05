@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Eric</copyright>
-    <lastBuildDate>Sat, 08 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Eric-s-Blog-v2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Eric-s-Blog-v2/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>test</title>
+      <link>http://localhost:1313/Eric-s-Blog-v2/life/1764918268817-test/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/Eric-s-Blog-v2/life/1764918268817-test/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Eric-s-Blog-v2/life/1764918268817-test/featured.png" />
+    </item>
+    
+    <item>
+      <title>从三国杀到残障人士关怀，关于尊重的反思</title>
+      <link>http://localhost:1313/Eric-s-Blog-v2/life/1764913861269-post18/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/Eric-s-Blog-v2/life/1764913861269-post18/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Eric-s-Blog-v2/life/1764913861269-post18/featured.png" />
+    </item>
     
     <item>
       <title>reference_wrapper 的模板实现</title>
@@ -21,10 +41,10 @@
     
     <item>
       <title>十月底cpp程设验收不理想之批判与自我批判</title>
-      <link>http://localhost:1313/Eric-s-Blog-v2/posts/1761887832826-post16/</link>
+      <link>http://localhost:1313/Eric-s-Blog-v2/life/1761887832826-post16/</link>
       <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/Eric-s-Blog-v2/posts/1761887832826-post16/</guid>
+      <guid>http://localhost:1313/Eric-s-Blog-v2/life/1761887832826-post16/</guid>
       <description></description>
       
     </item>
@@ -61,10 +81,10 @@
     
     <item>
       <title>记一件小事</title>
-      <link>http://localhost:1313/Eric-s-Blog-v2/posts/1759232945319-post12/</link>
+      <link>http://localhost:1313/Eric-s-Blog-v2/life/1759232945319-post12/</link>
       <pubDate>Fri, 12 Sep 2025 14:48:33 +0800</pubDate>
       
-      <guid>http://localhost:1313/Eric-s-Blog-v2/posts/1759232945319-post12/</guid>
+      <guid>http://localhost:1313/Eric-s-Blog-v2/life/1759232945319-post12/</guid>
       <description></description>
       
     </item>
@@ -161,10 +181,10 @@
     
     <item>
       <title>我的痛苦1</title>
-      <link>http://localhost:1313/Eric-s-Blog-v2/posts/1759232865935-post2/</link>
+      <link>http://localhost:1313/Eric-s-Blog-v2/life/1759232865935-post2/</link>
       <pubDate>Wed, 16 Jul 2025 15:45:42 +0800</pubDate>
       
-      <guid>http://localhost:1313/Eric-s-Blog-v2/posts/1759232865935-post2/</guid>
+      <guid>http://localhost:1313/Eric-s-Blog-v2/life/1759232865935-post2/</guid>
       <description></description>
       
     </item>

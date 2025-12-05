@@ -15,5 +15,12 @@ pageRef = "posts"
 identifier = "AZF2VlCSyR"
 weight = 9_999
 
+[[main]]
+name = "life"
+pre = "eye"
+pageRef = "life"
+identifier = "C7fgADwC7L"
+weight = 9_999
+
 [[footer]]
 none = "none"
