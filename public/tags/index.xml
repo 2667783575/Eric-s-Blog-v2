@@ -1,43 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Erics Blog</title>
+    <title>Tags on Eric&#39;s Blog</title>
     <link>http://localhost:1313/Eric-s-Blog-v2/tags/</link>
-    <description>Recent content in Tags on Erics Blog</description>
+    <description>Recent content in Tags on Eric&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2025 Eric</copyright>
-    <lastBuildDate>Fri, 05 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Eric-s-Blog-v2/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Example</title>
-      <link>http://localhost:1313/Eric-s-Blog-v2/tags/example/</link>
-      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/Eric-s-Blog-v2/tags/example/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Tag</title>
-      <link>http://localhost:1313/Eric-s-Blog-v2/tags/tag/</link>
-      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/Eric-s-Blog-v2/tags/tag/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>日常</title>
-      <link>http://localhost:1313/Eric-s-Blog-v2/tags/%E6%97%A5%E5%B8%B8/</link>
-      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/Eric-s-Blog-v2/tags/%E6%97%A5%E5%B8%B8/</guid>
-      <description></description>
-      
-    </item>
+    <copyright>© 2026 Eric Linus</copyright>
+    <lastBuildDate>Sat, 08 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Eric-s-Blog-v2/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Cpp</title>
@@ -50,21 +20,21 @@
     </item>
     
     <item>
-      <title>小事</title>
-      <link>http://localhost:1313/Eric-s-Blog-v2/tags/%E5%B0%8F%E4%BA%8B/</link>
-      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+      <title>Example</title>
+      <link>http://localhost:1313/Eric-s-Blog-v2/tags/example/</link>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/Eric-s-Blog-v2/tags/%E5%B0%8F%E4%BA%8B/</guid>
+      <guid>http://localhost:1313/Eric-s-Blog-v2/tags/example/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>日常哲思</title>
-      <link>http://localhost:1313/Eric-s-Blog-v2/tags/%E6%97%A5%E5%B8%B8%E5%93%B2%E6%80%9D/</link>
-      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+      <title>Tag</title>
+      <link>http://localhost:1313/Eric-s-Blog-v2/tags/tag/</link>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/Eric-s-Blog-v2/tags/%E6%97%A5%E5%B8%B8%E5%93%B2%E6%80%9D/</guid>
+      <guid>http://localhost:1313/Eric-s-Blog-v2/tags/tag/</guid>
       <description></description>
       
     </item>
@@ -75,16 +45,6 @@
       <pubDate>Tue, 30 Sep 2025 16:40:36 +0800</pubDate>
       
       <guid>http://localhost:1313/Eric-s-Blog-v2/tags/%E5%A4%8F%E5%AD%A3%E5%85%AB%E6%AD%A3/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>哲思</title>
-      <link>http://localhost:1313/Eric-s-Blog-v2/tags/%E5%93%B2%E6%80%9D/</link>
-      <pubDate>Fri, 12 Sep 2025 14:48:33 +0800</pubDate>
-      
-      <guid>http://localhost:1313/Eric-s-Blog-v2/tags/%E5%93%B2%E6%80%9D/</guid>
       <description></description>
       
     </item>
@@ -142,7 +102,7 @@
     <item>
       <title>夏几把想</title>
       <link>http://localhost:1313/Eric-s-Blog-v2/tags/%E5%A4%8F%E5%87%A0%E6%8A%8A%E6%83%B3/</link>
-      <pubDate>Wed, 16 Jul 2025 15:45:42 +0800</pubDate>
+      <pubDate>Tue, 15 Jul 2025 18:08:02 +0800</pubDate>
       
       <guid>http://localhost:1313/Eric-s-Blog-v2/tags/%E5%A4%8F%E5%87%A0%E6%8A%8A%E6%83%B3/</guid>
       <description></description>

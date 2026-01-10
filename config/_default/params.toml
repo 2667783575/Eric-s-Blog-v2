@@ -1,4 +1,4 @@
-colorScheme = "blowfish"
+colorScheme = "avacado"
 defaultAppearance = "light"
 autoSwitchAppearance = true
 enableA11y = false
@@ -20,11 +20,13 @@ verification = { }
 rssnext = { }
 advertisement = { }
 highlightCurrentMenuArea = true
-defaultBackgroundImage = "111.png"
-defaultFeaturedImage = "111.png"
+defaultBackgroundImage = "b2-s.png"
+defaultFeaturedImage = "featured.jpg"
+smartTOC = true
+smartTOCHideUnfocusedChildren = true
 
 [header]
-layout = "basic"
+layout = "fixed-fill-blur"
 
 [footer]
 showMenu = true
@@ -35,15 +37,15 @@ showScrollToTop = true
 
 [homepage]
 layout = "hero"
-showRecent = false
-showRecentItems = 5
-showMoreLink = false
-showMoreLinkDest = "/posts/"
-cardView = false
-cardViewScreenWidth = false
+showRecent = true
+showRecentItems = "5"
+showMoreLink = true
+showMoreLinkDest = "/Eric-s-Blog-v2/posts"
+cardView = true
+cardViewScreenWidth = true
 layoutBackgroundBlur = true
 disableHeroImageFilter = false
-homepageImage = "1.png"
+homepageImage = "b4-s.jpg"
 
 [article]
 showDate = true
@@ -52,24 +54,26 @@ showLikes = false
 showDateOnlyInArticle = false
 showDateUpdated = false
 showAuthor = true
-showHero = false
+showHero = true
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
-showBreadcrumbs = false
+showBreadcrumbs = true
 showDraftLabel = true
 showEdit = false
 editAppendPath = true
 seriesOpened = false
 showHeadingAnchors = true
 showPagination = true
-invertPagination = false
+invertPagination = ""
 showReadingTime = true
 showTableOfContents = "Show"
-showTaxonomies = false
+showTaxonomies = true
 showCategoryOnly = false
 showAuthorsBadges = false
 showWordCount = true
-showZenMode = false
+showZenMode = true
+heroStyle = "background"
+relatedContentLimit = ""
 
 [list]
 showHero = false

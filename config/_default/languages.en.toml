@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Erics Blog"
+title = "Eric's Blog"
 
 [params]
 displayName = "EN"
@@ -10,12 +10,20 @@ isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
 logo = "favicon.png"
-description = "Eric的博客站点"
+description = "Eric的技术与生活分享博客"
+secondaryLogo = "favicon2.png"
 
-  [params.author]
-  links = [ ]
+[[params.author.links]]
+email = "mailto:noobmeow@bupt.edu.cn"
+
+[[params.author.links]]
+github = "https://github.com/n00bme0w"
+
+[[params.author.links]]
+google = "mailto:ericlinus694@gmail.com"
 
 ["params.author"]
-name = "Eric"
-headline = "Eric Linus"
+name = "Eric Linus"
+headline = "北邮软件工程菜鸟本科生 | 偏好底层方向"
 image = "favicon.png"
+bio = "北京邮电大学软件工程专业本科生，主要语言C++，对系统编程，数据库和AI系统交叉感兴趣。熟悉C++/Python/C#/Java/Rust。Github:@n00bme0w"
