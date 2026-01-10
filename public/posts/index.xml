@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Eric Linus</copyright>
-    <lastBuildDate>Sat, 08 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Eric-s-Blog-v2/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Eric-s-Blog-v2/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>about</title>
+      <link>http://localhost:1313/Eric-s-Blog-v2/posts/about/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/Eric-s-Blog-v2/posts/about/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>reference_wrapper 的模板实现</title>
@@ -145,16 +155,6 @@
       <pubDate>Tue, 15 Jul 2025 18:08:02 +0800</pubDate>
       
       <guid>http://localhost:1313/Eric-s-Blog-v2/posts/1759232853936-post1/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>about</title>
-      <link>http://localhost:1313/Eric-s-Blog-v2/posts/about/</link>
-      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/Eric-s-Blog-v2/posts/about/</guid>
       <description></description>
       
     </item>
