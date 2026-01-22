@@ -4,30 +4,23 @@
     <title>Cpp on Eric&#39;s Blog</title>
     <link>http://localhost:1313/Eric-s-Blog-v2/tags/cpp/</link>
     <description>Recent content in Cpp on Eric&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <copyright>© 2026 Eric Linus</copyright>
-    <lastBuildDate>Sat, 08 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Eric-s-Blog-v2/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sat, 08 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/Eric-s-Blog-v2/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>reference_wrapper 的模板实现</title>
       <link>http://localhost:1313/Eric-s-Blog-v2/posts/1762602009775-post17/</link>
       <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/Eric-s-Blog-v2/posts/1762602009775-post17/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Eric-s-Blog-v2/posts/1762602009775-post17/featured.png" />
     </item>
-    
     <item>
       <title>关于cpp中const返回值</title>
       <link>http://localhost:1313/Eric-s-Blog-v2/posts/1759232872971-post3/</link>
       <pubDate>Wed, 20 Aug 2025 18:25:46 +0800</pubDate>
-      
       <guid>http://localhost:1313/Eric-s-Blog-v2/posts/1759232872971-post3/</guid>
       <description></description>
-      
     </item>
-    
   </channel>
 </rss>

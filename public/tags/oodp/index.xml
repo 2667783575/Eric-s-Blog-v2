@@ -4,70 +4,51 @@
     <title>OODP on Eric&#39;s Blog</title>
     <link>http://localhost:1313/Eric-s-Blog-v2/tags/oodp/</link>
     <description>Recent content in OODP on Eric&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <copyright>© 2026 Eric Linus</copyright>
-    <lastBuildDate>Sun, 31 Aug 2025 21:33:39 +0800</lastBuildDate><atom:link href="http://localhost:1313/Eric-s-Blog-v2/tags/oodp/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 31 Aug 2025 21:33:39 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/Eric-s-Blog-v2/tags/oodp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OODP6 构造器模式 (Builder)</title>
       <link>http://localhost:1313/Eric-s-Blog-v2/posts/1759232934070-post10/</link>
       <pubDate>Sun, 31 Aug 2025 21:33:39 +0800</pubDate>
-      
       <guid>http://localhost:1313/Eric-s-Blog-v2/posts/1759232934070-post10/</guid>
       <description></description>
-      
     </item>
-    
     <item>
       <title>OODP4 依赖倒置原则(DIP)</title>
       <link>http://localhost:1313/Eric-s-Blog-v2/posts/1759232901555-post8/</link>
       <pubDate>Sat, 30 Aug 2025 15:39:52 +0800</pubDate>
-      
       <guid>http://localhost:1313/Eric-s-Blog-v2/posts/1759232901555-post8/</guid>
       <description></description>
-      
     </item>
-    
     <item>
       <title>OODP3 接口隔离原则(ISP)</title>
       <link>http://localhost:1313/Eric-s-Blog-v2/posts/1759232893885-post7/</link>
       <pubDate>Fri, 29 Aug 2025 16:43:20 +0800</pubDate>
-      
       <guid>http://localhost:1313/Eric-s-Blog-v2/posts/1759232893885-post7/</guid>
       <description></description>
-      
     </item>
-    
     <item>
       <title>OODP2 里氏替换原则(LSP)</title>
       <link>http://localhost:1313/Eric-s-Blog-v2/posts/1759232888597-post6/</link>
       <pubDate>Wed, 27 Aug 2025 16:25:47 +0800</pubDate>
-      
       <guid>http://localhost:1313/Eric-s-Blog-v2/posts/1759232888597-post6/</guid>
       <description></description>
-      
     </item>
-    
     <item>
       <title>OODP1 开闭原则(OCP)</title>
       <link>http://localhost:1313/Eric-s-Blog-v2/posts/1759232882925-post5/</link>
       <pubDate>Wed, 27 Aug 2025 10:59:07 +0800</pubDate>
-      
       <guid>http://localhost:1313/Eric-s-Blog-v2/posts/1759232882925-post5/</guid>
       <description></description>
-      
     </item>
-    
     <item>
       <title>OODP0 单一职责原则(SRP)</title>
       <link>http://localhost:1313/Eric-s-Blog-v2/posts/1759232878687-post4/</link>
       <pubDate>Wed, 27 Aug 2025 10:37:14 +0800</pubDate>
-      
       <guid>http://localhost:1313/Eric-s-Blog-v2/posts/1759232878687-post4/</guid>
       <description></description>
-      
     </item>
-    
   </channel>
 </rss>

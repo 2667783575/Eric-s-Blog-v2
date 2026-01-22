@@ -27,8 +27,7 @@ tags: ["自我介绍"]
 
 Eric是典型的理工男，母胎solo。性格INTJ，略微孤僻，混沌善良。
 
-喜欢和朋友打游戏，喜欢萌宠，喜欢挖煤猫，喜欢不冷不热的天气，喜欢温暖的被窝，喜欢雨水打湿泥土的气息，喜欢听音乐，喜欢做有意义的事，喜欢诗和浪漫，喜欢有人喜欢的感觉。
-
+爱好:编程，暹罗猫，雨天。
 
 ## 核心技术栈
 
@@ -73,6 +72,8 @@ Eric是典型的理工男，母胎solo。性格INTJ，略微孤僻，混沌善�
 Eric主要对数据库等底层系统非常感兴趣，但受限于市场与现实，暂且将目光移动到AI Infra，ML Sys等底层与AI训练，推理等过程结合的更加具有前途的方向。
 
 ## 推荐链接
+
+[winter-raymond的个人wiki](https://winter-raymond.github.io/QIE-wiki/)
 
 [spiderboy的博客](https://superspiderboy.github.io/)
 
